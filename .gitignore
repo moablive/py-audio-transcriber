@@ -1,0 +1,59 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# --- Ambientes Virtuais (Virtual Envs) ---
+venv/
+.venv/
+env/
+ENV/
+
+# --- Variáveis de Ambiente e Segredos ---
+.env
+.env.local
+.env.*
+
+# --- Docker ---
+docker-compose.override.yml
+
+# --- IDEs e Sistema Operacional ---
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+
+# --- PROJETO AUDIO TRANSCRIBER ---
+
+# Ignora os arquivos de áudio temporários gerados pelo script
+temp_*
+
+# Ignora arquivos de mídia soltos na raiz (para não subir testes sem querer)
+*.mp3
+*.wav
+*.ogg
+*.m4a
+*.flac
+
+# Ignora a pasta de dados/modelos (caso você decida mapear o volume localmente)
+data/
+models/
+whisper-models/

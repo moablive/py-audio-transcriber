@@ -1,0 +1,26 @@
+version: '3.8'
+
+services:
+  audio-transcriber:
+    build: .
+    container_name: audio-transcriber
+    restart: unless-stopped
+    
+    env_file:
+      - .env
+
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+    
+    networks:
+      - awl_network
+    
+    deploy:
+      resources:
+        limits:
+          cpus: '1.0'
+          memory: 2048M
+
+networks:
+  awl_network:
+    external: true
