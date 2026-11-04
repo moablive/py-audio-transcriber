@@ -1,3 +1,8 @@
+> [!IMPORTANT]
+> **Este projeto mudou de lugar.** Desde 04/11/2026 ele mora em
+> **[moablive/python-projects/audio-transcriber](https://github.com/moablive/python-projects/tree/main/audio-transcriber)**,
+> junto com os outros projetos em Python (com o histórico de commits). Este repositório fica só como referência.
+
 # 🌩️ AWLSRV - Audio Transcriber
 
 <p align="center">
